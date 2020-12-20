@@ -8,20 +8,13 @@ import SideNav from './components/sidenav'
 import { BorderBottom } from '@material-ui/icons';
 function App() {
 
-  const rootcontainer = {
-    backgroundColor: "#282c34",
-    height: "720px",
-    width: "1280px",
-    alignItems: "center",
-    margin: "auto",
-  }
-
   const outerpanel = {
-    backgroundColor: "#282c34",
+    backgroundColor: "#1E2122",
     width: "1280px",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
+    margin:"auto"
   }
   const style = {
     backgroundColor: "#1E2122",
@@ -37,7 +30,8 @@ function App() {
     height: "64px",
     width: "1280px",
     position:"relative",
-    borderBottom:"2px solid green"
+    borderBottom:"2px solid green",
+    margin:"auto"
   }
 
   const innerstyle = {
@@ -49,14 +43,14 @@ function App() {
     margin: "auto",
     marginTop: "10px",
     marginBottom: "10px",
-    border:"1px solid grey"
+    border:"1px solid grey",
+    borderRadius:"25px"
   }
   const sidepanel = {
     backgroundColor: "#18181C",
     width: "260px",
     height: "656px",
     marginLeft: "0px",
-    marginTop: "64px",
   }
 
   const buttonStyle={
@@ -67,7 +61,6 @@ function App() {
 
   return (
     <div className="App" style={{ alignItems: "center" }}>
-      <div style={rootcontainer}>
         <div style={topstyle}>
           <Grid container justify="flex-start" style={buttonStyle}>
             <Button bgcolor="white" color="#494947" variant="caption" text="Training Mode"/>
@@ -97,9 +90,6 @@ function App() {
             <div style={innerstyle}><Section/></div>
           </div>
         </div>
-      </div>
-      <h>Closecross</h>
-      <Button />
       <Typography variant="h2" />
     </div>
   );
