@@ -4,6 +4,8 @@ import Button from './components/ButtonComponent'
 import Icon from './components/Icons'
 import Section from './components/section'
 import SideNav from './components/sidenav'
+
+
 function App() {
 
   const outerpanel = {
@@ -55,7 +57,7 @@ function App() {
     position:"absolute",
     top:"25%",
   }
-  
+
 
   return (
     <div className="App" style={{ alignItems: "center" }}>

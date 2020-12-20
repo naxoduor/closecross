@@ -7,17 +7,20 @@ export default function numbersection() {
         height: "",
         margin: "auto"
     }
+
     const fiveone = {
         marginTop: "20px",
         width: "180px",
         height: "24px",
         fontSize: "20px",
     }
+
     const fivetwo = {
         width: "180px",
         height: "16px",
         fontSize: "10px"
     }
+    
     return (
         <div style={sectiontwo}>
                 <div style={fiveone}>

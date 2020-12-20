@@ -14,11 +14,13 @@ export default function hoursection() {
         height: "24px",
         fontSize: "20px",
     }
+
     const fivetwo = {
         width: "180px",
         height: "16px",
         fontSize: "10px"
     }
+    
     return (
         <div style={sectionone}>
                 <div style={fiveone}>

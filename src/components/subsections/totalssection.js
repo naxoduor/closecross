@@ -6,17 +6,20 @@ export default function totalssection() {
         height: "64px",
         margin: "auto",
     }
+
     const fiveone = {
         marginTop: "20px",
         width: "180px",
         height: "24px",
         fontSize: "20px",
     }
+
     const fivetwo = {
         width: "180px",
         height: "16px",
         fontSize: "10px"
     }
+    
     return (
         <div style={sectionfive}>
             <div style={fiveone}>$ 34 346.00</div>

@@ -9,6 +9,7 @@ export default function tradewallet() {
         flexDirection: "row",
         marginTop: "5px"
     }
+    
     const text = "TRADING WALLET"
 
     return (
