@@ -5,7 +5,7 @@ import ChartSection from '../components/subsections/chartsection'
 import Graphsection from '../components/subsections/graphsection'
 import TotalsSection from '../components/subsections/totalssection'
 
-export default function section() {
+export default function section(props) {
     const root = {
         display: "flex",
         flexDirection: "row",
@@ -19,7 +19,7 @@ export default function section() {
             <NumberSection/>
             <ChartSection/>
             <Graphsection/>
-            <TotalsSection/>
+            <TotalsSection amount={props.amount}/>
         </div>
     )
 }

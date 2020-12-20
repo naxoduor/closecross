@@ -1,0 +1,11 @@
+version: "3.6"
+services:
+  closecross:
+    build: .
+    volumes: # Binds volume to enable working through docker locally
+      - type: bind
+        source: ./
+        target: /app/
+    network_mode: "host"
+    environment:
+      NODE_ENV: 'development'

@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../ButtonComponent'
 import SideHeader from '../sidesections/sideheader'
+import ChartSection from '../subsections/chartsection'
 
 export default function tradehistorysection() {
 
@@ -48,6 +49,7 @@ export default function tradehistorysection() {
                     </span>
                 <span style={{ margin: "auto", color: "white", fontSize: "30px" }}>+21.5%</span>
             </div>
+            <ChartSection/>
         </div>
     )
 }

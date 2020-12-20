@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function totalssection() {
+export default function totalssection(props) {
     const sectionfive = {
         width: "180px",
         height: "64px",
@@ -19,10 +19,10 @@ export default function totalssection() {
         height: "16px",
         fontSize: "10px"
     }
-    
+
     return (
         <div style={sectionfive}>
-            <div style={fiveone}>$ 34 346.00</div>
+            <div style={fiveone}>{props.amount}</div>
             <div style={fivetwo}>Total Commitment funds</div>
         </div>
     )

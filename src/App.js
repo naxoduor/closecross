@@ -4,6 +4,7 @@ import Button from './components/ButtonComponent'
 import Icon from './components/Icons'
 import Section from './components/section'
 import SideNav from './components/sidenav'
+import TopMainSection from './components/topmainsection'
 
 
 function App() {
@@ -83,11 +84,12 @@ function App() {
             <SideNav/>
           </div>
           <div style={style}>
-            <div style={innerstyle}><Section/></div>
-            <div style={innerstyle}><Section/></div>
-            <div style={innerstyle}><Section/></div>
-            <div style={innerstyle}><Section/></div>
-            <div style={innerstyle}><Section/></div>
+            <div><TopMainSection/></div>
+            <div style={innerstyle}><Section amount="$ 34,346.00"/></div>
+            <div style={innerstyle}><Section amount="$ 329,146.00"/></div>
+            <div style={innerstyle}><Section amount="$ 129,146.00"/></div>
+            <div style={innerstyle}><Section amount="$ 46.00"/></div>
+            <div style={innerstyle}><Section amount="$ 00.00"/></div>
           </div>
         </div>
     </div>
