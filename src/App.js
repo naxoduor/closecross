@@ -1,11 +1,9 @@
 import { Grid } from '@material-ui/core';
 import './App.css';
 import Button from './components/ButtonComponent'
-import Typography from './components/TypographyComponent'
 import Icon from './components/Icons'
 import Section from './components/section'
 import SideNav from './components/sidenav'
-import { BorderBottom } from '@material-ui/icons';
 function App() {
 
   const outerpanel = {
@@ -90,7 +88,6 @@ function App() {
             <div style={innerstyle}><Section/></div>
           </div>
         </div>
-      <Typography variant="h2" />
     </div>
   );
 }

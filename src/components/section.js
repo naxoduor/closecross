@@ -1,6 +1,4 @@
 import React from 'react'
-import Typography from './TypographyComponent'
-import Divider from '@material-ui/core/Divider';
 import HourSection from '../components/subsections/hoursection'
 import NumberSection from '../components/subsections/numbersection'
 import ChartSection from '../components/subsections/chartsection'
