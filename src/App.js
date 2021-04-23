@@ -1,12 +1,7 @@
-import { Grid } from '@material-ui/core';
 import './App.css';
-import ButtonsContainer from './components/containers/ButtonsContainer'
-import Button from './components/ButtonComponent'
-import Icon from './components/Icons'
-import SectionsContainer from './components/containers/SectionsContainer'
-import Section from './components/section'
-import SideNav from './components/sidenav'
-import TopMainSection from './components/topmainsection'
+import Menu from './menu/'
+import Page from './page'
+
 
 
 function App() {
@@ -48,34 +43,10 @@ function App() {
     top: "25%",
   }
 
-
   return (
     <div className="App" style={{ alignItems: "center" }}>
-      <div style={topstyle}>
-
-        <Grid container justify="flex-start" style={buttonStyle}>
-          <Button bgcolor="white" color="#494947" variant="caption" text="Training Mode" />
-          <Button bgcolor="#494947" color="white" variant="caption" text="Live Mode" />
-        </Grid>
-
-        <Grid container justify="center" style={buttonStyle}>
-          <ButtonsContainer />
-        </Grid>
-
-        <Grid container justify="flex-end" style={buttonStyle}>
-          <Icon />
-        </Grid>
-      </div>
-      
-      <div style={outerpanel}>
-        <div style={sidepanel}>
-          <SideNav />
-        </div>
-        <div style={style}>
-          <div><TopMainSection /></div>
-          <SectionsContainer />
-        </div>
-      </div>
+      <Menu/>
+      <Page/>
     </div>
   );
 }

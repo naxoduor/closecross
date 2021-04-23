@@ -1,11 +1,10 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
-import Typography from '../components/TypographyComponent'
-
+import { Grid } from '@material-ui/core'
 export default function ButtonComponent(props) {
-    
-    return <Button style={{backgroundColor:props.bgcolor, color:props.color, height:"20px",
-    border:props.border, padding:props.padding, marginLeft:props.margin}}>
-        <Typography variant={props.variant} text={props.text}/>
-    </Button>;
+
+    return (
+        <Grid>
+            <button type="button" class="btn btn-sm" style={{ backgroundColor: props.bgcolor, color: props.color }}>{props.text}</button>
+        </Grid>
+    )
 }

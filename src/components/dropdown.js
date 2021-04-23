@@ -32,7 +32,7 @@ export default function DropdownComponent() {
     };
 
     return (
-        <div>
+        <div class="dropdown">
             <select name="trends" id="trends">
                 <option value="Trending">Trending</option>
                 <option value="trendone">trendone</option>
